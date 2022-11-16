@@ -1,0 +1,107 @@
+.container_daythree {
+    display: grid;
+    grid-template-columns: 1fr repeat(16, 2fr);
+    grid-template-rows: 1fr repeat(6, 2fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    font-family: 'Black Ops One', cursive;
+    width: 80%;
+    }
+
+    .div13 { grid-area: 1 / 1 / 2 / 3; }
+    .div23 { grid-area: 1 / 3 / 2 / 5; }
+    .div33 { grid-area: 1 / 5 / 2 / 7; }
+    .div43 { grid-area: 1 / 7 / 2 / 9; }
+    .div53 { grid-area: 1 / 9 / 2 / 11; }
+    .div63 { grid-area: 1 / 11 / 2 / 13; }
+    .div73 { grid-area: 1 / 13 / 2 / 15; }
+    .div83 { grid-area: 1 / 15 / 2 / 17; }
+    .div93 { grid-area: 1 / 17 / 2 / 18; }
+    .div103 { grid-area: 1 / 17 / 2 / 18; }
+    .div113 { writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);grid-area: 2 / 1 / 3 / 2; }
+    .div123 { writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);grid-area: 3 / 1 / 4 / 2; }
+    .div133 { writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);grid-area: 4 / 1 / 5 / 2; }
+    .div143 {writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);grid-area: 5 / 1 / 7 / 2; }
+    .div153 { writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);grid-area: 7 / 1 / 8 / 2; }
+    .div163 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://blog-c7ff.kxcdn.com/blog/wp-content/uploads/2019/09/Capture_HAckathon_wordpress.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 2 / 2 / 3 / 3; }
+    .div163:hover {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://blog-c7ff.kxcdn.com/blog/wp-content/uploads/2019/09/Capture_HAckathon_wordpress.jpg");
+
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 0.5rem white);
+    }
+    .div173 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://i0.wp.com/reussir-son-management.com/wp-content/uploads/2022/05/cest-quoi-un-manager.png?resize=800%2C445&ssl=1");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 4 / 4 / 5 / 10; }
+        .div173:hover {
+           background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://i0.wp.com/reussir-son-management.com/wp-content/uploads/2022/05/cest-quoi-un-manager.png?resize=800%2C445&ssl=1");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div183 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://www.marketingdonut.co.uk/sites/default/files/exhibiting_227681290_0.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 5 / 2 / 6 / 10; }
+        .div183:hover {
+             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://www.marketingdonut.co.uk/sites/default/files/exhibiting_227681290_0.jpg");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div193 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://media.istockphoto.com/id/1160497964/photo/closing-soon-time-running-out-deadline-clock-3d-illustration.jpg?s=612x612&w=0&k=20&c=yXWmAWkY3UPeaSRURXe7ZqEjTOzUPMZQ3kmgCf3pQpE=");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 6 / 2 / 7 / 4; }
+        .div193:hover {
+           background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://media.istockphoto.com/id/1160497964/photo/closing-soon-time-running-out-deadline-clock-3d-illustration.jpg?s=612x612&w=0&k=20&c=yXWmAWkY3UPeaSRURXe7ZqEjTOzUPMZQ3kmgCf3pQpE=");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div203 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKRR6AKfXBGWo1hAGhbFLX7SOEltkfzC0jsA&usqp=CAU");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 7 / 3 / 8 / 10; }
+        .div203:hover {
+           background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKRR6AKfXBGWo1hAGhbFLX7SOEltkfzC0jsA&usqp=CAU");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div213 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://newhorizoncollege.co.in/wp-content/uploads/2020/03/Auditorium-650X380.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 2 / 12 / 3 / 16; }
+        .div213:hover {
+            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://newhorizoncollege.co.in/wp-content/uploads/2020/03/Auditorium-650X380.jpg");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }

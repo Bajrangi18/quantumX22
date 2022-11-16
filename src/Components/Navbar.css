@@ -1,0 +1,14 @@
+#NavBar {
+    justify-content: center;
+}
+
+#HomeButton, #EventsButton, #GalleryButton, #ContactButton {
+    transform: scale(1);
+    transition: 300ms;
+}
+#HomeButton:hover, #EventsButton:hover, #GalleryButton:hover, #ContactButton:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 0.5rem white);
+
+}
+

@@ -1,0 +1,53 @@
+#timer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 4fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        text-align: center;
+}
+#days {
+    font-size: 100px;
+    color:white;
+    grid-area: 2 / 1 / 3 / 2;
+    font-family: 'Black Ops One', cursive;
+
+  }
+  #hours {
+    font-size: 100px;
+    color: white;
+    grid-area: 2 / 2 / 3 / 3;
+    font-family: 'Black Ops One', cursive;
+
+  }
+  #minutes {
+    font-size: 100px;
+    color: white;
+    grid-area: 2 / 3 / 3 / 4;
+    font-family: 'Black Ops One', cursive;
+
+  }
+  #seconds {
+    font-size: 100px;
+    color: white;
+    grid-area: 2 / 4 / 3 / 5;
+    font-family: 'Black Ops One', cursive;
+
+  }
+
+.labelDays { font-size: 2rem;
+    color: white;
+    font-family: 'Black Ops One', cursive;
+    grid-area: 1 / 1 / 2 / 2; }
+.labelHours { 
+    font-size: 2rem;
+    color: white;
+    font-family: 'Black Ops One', cursive;grid-area: 1 / 2 / 2 / 3; }
+.labelMins { 
+    font-size: 2rem;
+    color: white;
+    font-family: 'Black Ops One', cursive;grid-area: 1 / 3 / 2 / 4; }
+.labelSecs { 
+    font-size: 2rem;
+    color: white;
+    font-family: 'Black Ops One', cursive;grid-area: 1 / 4 / 2 / 5; }

@@ -1,0 +1,48 @@
+#AboutContent {
+    justify-content: center;
+}
+
+#LogoImg {
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+    filter: drop-shadow(0 0 0.2rem white);
+}
+#LogoImg:hover {
+    filter: drop-shadow(0 0 0.75rem white);
+}
+
+#PassesButton {
+    filter: drop-shadow(0 0 0.5rem white);
+    transform: scale(1);
+    transition: 200ms;
+   
+}
+#PassesButton:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 2rem white);
+    border-color:white;
+    border-width: 1px;
+    color: cyan;
+}
+
+.parent {
+    display: grid;
+    width:100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { 
+        /* background-color: aqua; */
+    } 
+    .div2 { 
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: justify;
+        color: white;
+        /* background-color: aquamarine; */
+        font-family: 'Black Ops One', cursive;
+    }

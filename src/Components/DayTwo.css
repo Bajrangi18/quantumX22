@@ -1,0 +1,180 @@
+.container_daytwo {
+    display: grid;
+    grid-template-columns: 1fr repeat(16, 2fr);
+    grid-template-rows: 1fr repeat(7, 2fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    font-family: 'Black Ops One', cursive;
+    width: 80%;
+    }
+    
+    .div12 { grid-area: 1 / 1 / 2 / 3; }
+    .div22 { grid-area: 1 / 3 / 2 / 5; }
+    .div32 { grid-area: 1 / 5 / 2 / 7; }
+    .div42 { grid-area: 1 / 7 / 2 / 9; }
+    .div52 { grid-area: 1 / 9 / 2 / 11; }
+    .div62 { grid-area: 1 / 11 / 2 / 13; }
+    .div72 { grid-area: 1 / 13 / 2 / 15; }
+    .div82 { grid-area: 1 / 15 / 2 / 17; }
+    .div92 { grid-area: 1 / 17 / 2 / 18; }
+    .div102 { writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);grid-area: 2 / 1 / 3 / 2;
+         }
+    .div112 { writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);grid-area: 3 / 1 / 4 / 2; }
+    .div122 { writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);grid-area: 4 / 1 / 6 / 2; }
+    .div132 { writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);grid-area: 6 / 1 / 7 / 2; }
+    .div142 { writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);grid-area: 7 / 1 / 9 / 2; }
+    .div152 {  background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("../Helpers/audi.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 2 / 2 / 3 / 3; }
+    .div152:hover {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../Helpers/audi.jpg");
+
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 0.5rem white);
+    }
+    .div162 {  background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://www.communication-director.com/sites/default/files/styles/manual_crop/public/2018-06-13-european-communication-summit-panel-learning-ftsc-jl-28.jpg?itok=pEvMPzqv");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 3 / 3 / 4 / 7; }
+        .div162:hover {
+            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://www.communication-director.com/sites/default/files/styles/manual_crop/public/2018-06-13-european-communication-summit-panel-learning-ftsc-jl-28.jpg?itok=pEvMPzqv");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div172 {  background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://imageio.forbes.com/specials-images/imageserve/6354154d5e097d68cc4360ba/Picture-shows-green-graph-line-in-front-of-quotation-board/960x0.jpg?format=jpg&width=960");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 4 / 4 / 5 / 12; }
+        .div172:hover {
+          background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://imageio.forbes.com/specials-images/imageserve/6354154d5e097d68cc4360ba/Picture-shows-green-graph-line-in-front-of-quotation-board/960x0.jpg?format=jpg&width=960");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div182 {  background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://i0.wp.com/reussir-son-management.com/wp-content/uploads/2022/05/cest-quoi-un-manager.png?resize=800%2C445&ssl=1");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 5 / 3 / 6 / 12;
+        }
+        .div182:hover {
+            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://i0.wp.com/reussir-son-management.com/wp-content/uploads/2022/05/cest-quoi-un-manager.png?resize=800%2C445&ssl=1");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div192 {  background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://i0.wp.com/reussir-son-management.com/wp-content/uploads/2022/05/cest-quoi-un-manager.png?resize=800%2C445&ssl=1");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 5 / 14 / 6 / 18; }
+        .div192:hover {
+              background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://i0.wp.com/reussir-son-management.com/wp-content/uploads/2022/05/cest-quoi-un-manager.png?resize=800%2C445&ssl=1");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div202 {  background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://blog-c7ff.kxcdn.com/blog/wp-content/uploads/2019/09/Capture_HAckathon_wordpress.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 6 / 3 / 7 / 8; }
+        .div202:hover {
+            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://blog-c7ff.kxcdn.com/blog/wp-content/uploads/2019/09/Capture_HAckathon_wordpress.jpg");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div212 {  background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://www.notsoboringlife.com/wp-content/uploads/2022/06/RC-Car-Race.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 6 / 8 / 7 / 12; }
+        .div212:hover {
+            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://www.notsoboringlife.com/wp-content/uploads/2022/06/RC-Car-Race.jpg");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div222 {  background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://i0.wp.com/www.monstersandcritics.com/wp-content/uploads/2019/07/BattleBots-rules.jpg?resize=773.5%2C435&ssl=1");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 6 / 14 / 7 / 18; }
+        .di222:hover {
+          background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://i0.wp.com/www.monstersandcritics.com/wp-content/uploads/2019/07/BattleBots-rules.jpg?resize=773.5%2C435&ssl=1");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div232 {  background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://www.simplilearn.com/ice9/free_resources_article_thumb/ethical-hackers-for-businesses-article.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 7 / 8 / 8 / 12; }
+        .div232:hover {
+             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://www.simplilearn.com/ice9/free_resources_article_thumb/ethical-hackers-for-businesses-article.jpg");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div242 {  background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2019/11/inside_of_a_cansat/21390044-1-eng-GB/Inside_of_a_CanSat_pillars.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 8 / 2 / 9 / 8; }
+        .div242:hover {
+            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2019/11/inside_of_a_cansat/21390044-1-eng-GB/Inside_of_a_CanSat_pillars.jpg");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div252 {  background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://images.unsplash.com/photo-1603732551658-5fabbafa84eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXJkdWlub3xlbnwwfHwwfHw%3D&w=1000&q=80");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 8 / 8 / 9 / 12; }
+        .div252:hover {
+            background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://images.unsplash.com/photo-1603732551658-5fabbafa84eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXJkdWlub3xlbnwwfHwwfHw%3D&w=1000&q=80");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div262 {  background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://www.droneblog.com/wp-content/uploads/2021/08/Template-2.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 8 / 13 / 9 / 18; }
+        .div262:hover {
+             background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://www.droneblog.com/wp-content/uploads/2021/08/Template-2.jpg");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }

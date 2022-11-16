@@ -1,0 +1,266 @@
+.container_dayone {
+    display: grid;
+    grid-template-columns: 1fr repeat(16, 2fr);
+    grid-template-rows: 1fr repeat(9, 2fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    font-family: 'Black Ops One', cursive;
+    width: 80%;
+
+    }
+    
+    .div11 { grid-area: 1 / 1 / 2 / 3; }
+    .div21 { grid-area: 1 / 3 / 2 / 5; }
+    .div31 { grid-area: 1 / 5 / 2 / 7; }
+    .div41 { grid-area: 1 / 7 / 2 / 9; }
+    .div51 { grid-area: 1 / 9 / 2 / 11; }
+    .div61{ grid-area: 1 / 11 / 2 / 13; }
+    .div71 { grid-area: 1 / 13 / 2 / 15; }
+    .div81 { grid-area: 1 / 15 / 2 / 17; }
+    .div91 { grid-area: 1 / 17 / 2 / 18; }
+    .div101 { writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);grid-area: 2 / 1 / 3 / 2; }
+    .div111 { writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);grid-area: 3 / 1 / 4 / 2; }
+    .div121 { writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);grid-area: 4 / 1 / 7 / 2; }
+    .div131 { writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);grid-area: 7 / 1 / 9 / 2; }
+    .div141 { writing-mode: vertical-lr;
+        text-orientation: mixed;
+        transform: rotate(180deg);grid-area: 9 / 1 / 11 / 2; }
+    .div151 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://newhorizoncollege.co.in/wp-content/uploads/2020/03/Auditorium-650X380.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 2 / 2 / 3 / 5; }
+    .div151:hover {
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 0.5rem white);
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://newhorizoncollege.co.in/wp-content/uploads/2020/03/Auditorium-650X380.jpg");
+
+    }
+    .div161 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://t3.ftcdn.net/jpg/04/50/78/68/360_F_450786873_tMc0iwM7JzfLSXUdSjsWJEcXXwtJj4mK.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 3 / 5 / 4 / 8; }
+    .div161:hover {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://t3.ftcdn.net/jpg/04/50/78/68/360_F_450786873_tMc0iwM7JzfLSXUdSjsWJEcXXwtJj4mK.jpg");
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 0.5rem white);
+    }
+    .div171 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://www.wolvessummit.com/hubfs/pgc4.png");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 4 / 8 / 5 / 12; }
+    .div171:hover{
+       background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://www.wolvessummit.com/hubfs/pgc4.png");
+       transform: scale(1.1);
+       filter: drop-shadow(0 0 0.5rem white);
+
+    }
+    .div181 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://www.wolvessummit.com/hubfs/pgc4.png");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 4 / 14 / 5 / 18; }
+        .div181:hover{
+             background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://www.wolvessummit.com/hubfs/pgc4.png");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div191 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://res.cloudinary.com/people-matters/image/upload/q_auto,f_auto/v1548904763/1548904762.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 5 / 8 / 6 / 12; }
+        .div191:hover{
+             background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://res.cloudinary.com/people-matters/image/upload/q_auto,f_auto/v1548904763/1548904762.jpg");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div201 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://res.cloudinary.com/people-matters/image/upload/q_auto,f_auto/v1548904763/1548904762.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 5 / 14 / 6 / 18; }
+        .div201:hover{
+           background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://res.cloudinary.com/people-matters/image/upload/q_auto,f_auto/v1548904763/1548904762.jpg");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div211 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://1.bp.blogspot.com/-mmHLSUsxpUY/YMWLhlQidpI/AAAAAAAACMI/2Sw_uiMshYgYb8SnvrpQQCl8zHU_UsthwCPcBGAYYCw/w0/ezgif-com-gif-maker.webp");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 6 / 8 / 7 / 12; }
+        .div211:hover{
+            background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://1.bp.blogspot.com/-mmHLSUsxpUY/YMWLhlQidpI/AAAAAAAACMI/2Sw_uiMshYgYb8SnvrpQQCl8zHU_UsthwCPcBGAYYCw/w0/ezgif-com-gif-maker.webp");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div221 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://techcrunch.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-24-at-2.55.28-PM.png");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 7 / 8 / 8 / 12; }
+        .div221:hover{
+            background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://techcrunch.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-24-at-2.55.28-PM.png");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div231 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://cdn-1.motorsport.com/static/img/amp/4900000/4970000/4979000/4979500/4979577/s6_1003976/1003976.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 8 / 8 / 9 / 12; }
+        .div231:hover{
+           background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://cdn-1.motorsport.com/static/img/amp/4900000/4970000/4979000/4979500/4979577/s6_1003976/1003976.jpg");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div241 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://reputedbrand.com/wp-content/uploads/2021/01/chatbot-development.jpeg");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 9 / 8 / 10 / 12; }
+        .div241:hover{
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+           background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://reputedbrand.com/wp-content/uploads/2021/01/chatbot-development.jpeg");
+
+        }
+    .div251 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU4JwoYASoStTSH8-0yyogIPEyJw_nuaclGw&usqp=CAU");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 10 / 4 / 11 / 12; }
+        .div251:hover{
+           background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU4JwoYASoStTSH8-0yyogIPEyJw_nuaclGw&usqp=CAU");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div261 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU4JwoYASoStTSH8-0yyogIPEyJw_nuaclGw&usqp=CAU");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 10 / 14 / 11 / 18; }
+        .div261:hover{
+          background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU4JwoYASoStTSH8-0yyogIPEyJw_nuaclGw&usqp=CAU");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div271 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://contentstatic.techgig.com/thumb/msid-93726897,width-900,height-1200,resizemode-4/web-stories/5-pro-tips-to-ace-competitive-programming.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 7 / 14 / 8 / 18; }
+        .div271:hover{
+             background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://contentstatic.techgig.com/thumb/msid-93726897,width-900,height-1200,resizemode-4/web-stories/5-pro-tips-to-ace-competitive-programming.jpg");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+    .div281 { background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROhYwzrhmMyGnV1hk7R1ilo0huerJrPPx16LNpqiI1m3KR14bmkzedcx2sZdjOxK8faGk&usqp=CAU");
+        background-size: cover;
+        border-radius: 10px;
+        grid-area: 2 / 2 / 3 / 5;
+        filter: drop-shadow(0 0 0.1rem white);
+        transition: 200ms;grid-area: 8 / 14 / 9 / 18; }
+        .div281:hover{
+            background-image: linear-gradient( rgba(0, 0, 0, 0.132), rgba(0, 0, 0, 0.5) ),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROhYwzrhmMyGnV1hk7R1ilo0huerJrPPx16LNpqiI1m3KR14bmkzedcx2sZdjOxK8faGk&usqp=CAU");
+
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 0.5rem white);
+        }
+
+
+
+#ING001 {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.5rem;
+}
+#GT001 {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.5rem;
+
+}
+#PIT001 {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.6rem;
+}
+#PIT001 {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.6rem;
+}
+#CM001 {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.6rem;
+}
+#DRC001 {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.6rem;
+}
+#FS001 {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.6rem;
+}
+#CB001 {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.6rem;
+}
+#CRC001 {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.6rem;
+}
+#HCK001 {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.6rem;
+}
+#RBS001 {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.6rem;
+}
+
+/* background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ),url("../Helpers/audi.jpg");
+        background-size: cover;
+        transform: scale(1.1);
+        filter: drop-shadow(0 0 0.5rem white); */
