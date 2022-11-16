@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import '../Components/DayOne.css';
+import React from 'react';
 
 const DayOne = () => {
     

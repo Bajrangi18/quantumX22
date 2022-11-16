@@ -1,5 +1,5 @@
 import './Timer.css';
-
+import React from 'react';
 const Timer = () => {
     function makeTimer() {
 

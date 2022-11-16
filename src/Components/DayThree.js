@@ -1,4 +1,5 @@
 import '../Components/DayThree.css';
+import React from 'react';
 
 const DayThree = () => {
     return (

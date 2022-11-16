@@ -2,7 +2,7 @@ import './App.css';
 import MainView from './Components/MainView'
 import Contact from './Components/Contact'
 import Navbar from './Components/Navbar'
-import {
+import React,{
   useState
 } from "react"; 
 

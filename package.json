@@ -14,12 +14,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "react-scripts build && cp build/index.html build/404.html"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,7 +38,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://quantumx.in/public/",
+  
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }

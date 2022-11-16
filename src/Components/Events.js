@@ -2,6 +2,7 @@ import './Events.css'
 import DayOne from "../Components/DayOne"
 import DayTwo from "../Components/DayTwo"
 import DayThree from "../Components/DayThree"
+import React from 'react';
 
 const Events = () => {
    
