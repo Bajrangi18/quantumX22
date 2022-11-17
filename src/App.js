@@ -8,18 +8,29 @@ import React,{
 
 
 function App() {
-  
-
-  return (
-    <div className="App">
-      <br></br>
-      <Navbar/>
-      <br></br>
-      <MainView />
-      {/* <Contact/> */}
-      <br></br>
-    </div>
-  );
+  var w = window.screen.availWidth;
+  if (w>1000){
+    return (
+      <div className="App">
+        <br></br>
+        <Navbar/>
+        <br></br>
+        <MainView />
+   
+        <br></br>
+      </div>
+    );
+  }else{
+    return (
+      <div style={{backgroundColor: 'gray', height: '100%'}}>
+        <center>
+          <h1 style={{marginTop: '50%', color: 'white',fontFamily: 'fantasy'}}>
+            KINDLY ACCESS THE WEBSITE THROUGH LAPTOP
+          </h1>
+        </center>
+      </div>
+    );
+  }
 }
 
 

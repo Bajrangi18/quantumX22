@@ -178,3 +178,54 @@
             transform: scale(1.1);
             filter: drop-shadow(0 0 0.5rem white);
         }
+
+#CPC {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.5rem;
+}
+#MCK {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.5rem;
+}
+#BMM {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.5rem;
+}
+#HCK {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.5rem;
+}
+#RCR {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.5rem;
+}
+#RBW {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.5rem;
+}
+#ETH {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.5rem;
+}
+#CAN {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.5rem;
+}
+#ARD {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.5rem;
+}
+#LIFT {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.5rem;
+}

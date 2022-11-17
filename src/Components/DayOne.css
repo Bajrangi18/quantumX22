@@ -208,6 +208,11 @@
     transition: 200ms;
     margin-top: 2.5rem;
 }
+#IDE001 {
+    opacity: 0.0;
+    transition: 200ms;
+    margin-top: 2.5rem;
+}
 #GT001 {
     opacity: 0.0;
     transition: 200ms;

@@ -105,3 +105,29 @@
             transform: scale(1.1);
             filter: drop-shadow(0 0 0.5rem white);
         }
+
+        #BMM1 {
+            opacity: 0.0;
+            transition: 200ms;
+            margin-top: 2.5rem;
+        }
+        #EXH {
+            opacity: 0.0;
+            transition: 200ms;
+            margin-top: 2.5rem;
+        }
+        #HCKEND {
+            opacity: 0.0;
+            transition: 200ms;
+            margin-top: 2.5rem;
+        }
+        #DSW {
+            opacity: 0.0;
+            transition: 200ms;
+            margin-top: 2.5rem;
+        }
+        #CCP {
+            opacity: 0.0;
+            transition: 200ms;
+            margin-top: 2.5rem;
+        }
